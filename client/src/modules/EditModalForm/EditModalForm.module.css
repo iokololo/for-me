@@ -1,0 +1,222 @@
+.top {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.title {
+  color: #2a3044;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.33px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.submit {
+  border: none;
+  display: flex;
+  width: 449px;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  background: #4e77fb;
+
+  color: #fff;
+  text-align: center;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.submit:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.block {
+  display: flex;
+  width: 450px;
+  height: 114px;
+  padding-bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blockTitle {
+  color: #2a3044;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.blockInput {
+  min-width: 100%;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 11px 21px;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  border: 1px solid #e5e5ea;
+  background: #fff;
+}
+
+.input::placeholder {
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.inputError {
+  border: 1px solid #e53935;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #e53935;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  width: 449px;
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+
+.enabledButton {
+  background: #4e77fb;
+  cursor: pointer;
+}
+
+.disabledButton {
+  background: #e5e5ea;
+  cursor: default;
+}
+
+.saveButton {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: #2a3044;
+  margin-bottom: 12px;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.code input {
+  width: 50px;
+  height: 58px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.resendButton {
+  width: 195px;
+  cursor: pointer;
+  color: #5e5e5e;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.resendActive {
+  color: #4e77fb;
+}
+
+.secondSubmit {
+  background: #4e77fb;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none;
+  margin-top: 261px;
+  width: 100%;
+}
+.secondSubmit:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    width: 100%;
+  }
+  .phone {
+    width: 100%;
+  }
+}
+
+.mb {
+  margin-top: 210px;
+}

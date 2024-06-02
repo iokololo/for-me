@@ -1,0 +1,164 @@
+.root {
+  width: 223px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: #fff;
+  cursor: pointer;
+  height: fit-content;
+  transition: all 0.2s ease-in-out;
+}
+.imgMin {
+  width: 100%;
+  height: 68px;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+}
+.img {
+  width: 100%;
+  height: 126px;
+  border-radius: 12px 12px 0 0;
+}
+
+.title {
+}
+
+.price {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+}
+.search {
+  width: 275px;
+}
+
+.texts {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 10px;
+}
+.time {
+  display: flex;
+  align-items: first baseline;
+  gap: 4px;
+}
+.top {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.digit {
+  border-radius: 4px;
+  background: #f1f5ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #e53935;
+  width: 20px;
+  height: 24px;
+  text-align: center;
+}
+.bottom {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #2a3044;
+}
+
+.priceFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.root:hover {
+  box-shadow: 0px 6px 24px 0px #00000026;
+}
+
+@media screen and (max-width: 1180px) {
+  .root {
+    width: 18% !important;
+  }
+  .texts {
+    padding: 6px;
+  }
+  .block {
+    gap: 1px;
+  }
+  .price {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .bottom {
+    font-size: 8px;
+  }
+  .digit {
+    font-size: 12px;
+    width: 16px;
+    height: 20px;
+  }
+  .search {
+    width: 260px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    width: 30% !important;
+  }
+  .search {
+    width: 175px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .root {
+    width: 100% !important;
+  }
+  .texts {
+    padding: 6px;
+  }
+  .block {
+    gap: 1px;
+  }
+  .price {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .bottom {
+    font-size: 8px;
+  }
+  .digit {
+    font-size: 12px;
+    padding: 1px 4px;
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+  .timer {
+    width: 100%;
+    gap: inherit;
+  }
+}

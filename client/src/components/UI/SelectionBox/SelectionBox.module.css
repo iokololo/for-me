@@ -1,0 +1,96 @@
+.selection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectionBox {
+  width: 100%;
+}
+
+.leftSelection {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  min-width: 95%;
+}
+.rightSelection {
+  width: 5%;
+}
+
+.chb {
+  display: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkmark {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid #4e77fb;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+/* Add styles for the checked state of the checkbox */
+.chb:checked + .checkmark {
+  background-color: #4e77fb;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Стили для галочки в кастомном чекбоксе в состоянии "checked" */
+.chb:checked + .checkmark::after {
+  display: block;
+  left: 7px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.selectionTitle {
+  color: #171717;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.selectionValue {
+  color: #a7adbf;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.expanded {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  padding: 8px 6.999px 8px 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  border: 2px solid #4e77fb;
+  background: #4e77fb;
+}

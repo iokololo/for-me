@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Ydyrys Aizhan Zhumabaikyzy",
+    "imageUrl": "https://iitu.edu.kz/media/images/ydyrys_aizhan.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D1%8B%D0%B4%D1%8B%D1%80%D1%8B%D1%81-%D0%B0%D0%B9%D0%B6%D0%B0%D0%BD-%D0%B6%D2%B1%D0%BC%D0%B0%D0%B1%D0%B0%D0%B9%D2%9B%D1%8B%D0%B7%D1%8B-en/",
+    "position": "Head of department, assistant professor",
+    "email": "a.ydyrys@edu.iitu.kz",
+    "education": "Lomonosov Moscow State University  Probability theory and mathematical statistics, Differential equations, Number theory  Mathematical analysis, harmonic analysis, approximation theory, multipliers theory"
+  },
+  {
+    "name": "Rysbaiuly Bolatbek",
+    "imageUrl": "https://iitu.edu.kz/media/images/rysbaiuly.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D1%80%D1%8B%D1%81%D0%B1%D0%B0%D0%B9%D1%83%D0%BB%D1%8B-%D0%B1%D0%BE%D0%BB%D0%B0%D1%82%D0%B1%D0%B5%D0%BA-en/",
+    "position": "",
+    "email": "b.rysbaiuly@edu.iitu.kz",
+    "education": "al-Farabi Kazakh National University  Numerical methods, Laplace transform in engineering problems, Methods of mathematical modeling, Nonlinear optimization problems, Conditionality of systems of linear equations  Inverse problems  The best teacher of the university 2019 year"
+  },
+  {
+    "name": "Uteshova Roza Esenovna",
+    "imageUrl": "https://iitu.edu.kz/media/images/uteshova.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/uteshova-roza-esenovna-en/",
+    "position": "Assistant Professor",
+    "email": "r.uteshova@iitu.kz",
+    "education": "Aktobe State University  Mathematcal Analysis, Differential Equations, Equations of Mathematical Physics  Boundary value problems for differential equations"
+  },
+  {
+    "name": "Alipova Bakhyt Nurashevna",
+    "imageUrl": "https://iitu.edu.kz/media/images/alipova.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/alipova-bahyt-nurashevna-en/",
+    "position": "Assosiate Professor",
+    "email": "alipova.bakhyt@gmail.com",
+    "education": "al-Farabi Kazakh National University, Stuttgart University  Mathematics II, Modeling in MatLab  Numerical solutions of BVP in problems of mathematical physics  Fulbright Visiting Scholar (2014-15), University of Kentucky Fellowship, KY, USA (2019-2020)"
+  },
+  {
+    "name": "Abdikalikova Zamira Tursynbayevna",
+    "imageUrl": "https://iitu.edu.kz/media/images/abdikalikova.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/abdikalikova-zamira-tursynbaevna-en/",
+    "position": "Assistant Professor",
+    "email": "zamir-a-t@yandex.ru",
+    "education": "Gumilyev Eurasion National University, Astana, Kazakhstan, Lulea Technology University, Lulea, SwedenAlgebra and Geometry, Mathematical AnalysisFunctional Spaces, Theory of Operators"
+  },
+  {
+    "name": "Nurtas Marat",
+    "imageUrl": "https://iitu.edu.kz/media/images/nurtas.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D0%BD%D1%83%D1%80%D1%82%D0%B0%D1%81-%D0%BC%D0%B0%D1%80%D0%B0%D1%82-en/",
+    "position": "Lecturer",
+    "email": "m.nurtas@edu.iitu.kz",
+    "education": "KazNU, KBTU, Almaty, KazakhstanMachine Learning, Deep Learning, Numerical Analysis"
+  },
+  {
+    "name": "Konyrkulzhayeva Maral Nurlanovna",
+    "imageUrl": "https://iitu.edu.kz/media/images/konyrkulzhaeva.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/konyrkulzhaeva-maral-nurlanovna-en/",
+    "position": "Assistant-professor",
+    "email": "maralkulzha@gmail.com",
+    "education": "al-Farabi Kazakh National University  Mathematical analysis, probability theory and mathematical statistics  Residue and spectral decomposition of the second order differential operator on the graphs"
+  },
+  {
+    "name": "Kadirbayeva Zhazira Muratbekovna",
+    "imageUrl": "https://iitu.edu.kz/media/images/kadirbaeva.original.format-jpeg_XabBSUH.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D0%BA%D0%B0%D0%B4%D0%B8%D1%80%D0%B1%D0%B0%D0%B5%D0%B2%D0%B0-%D0%B6%D0%B0%D0%B7%D0%B8%D1%80%D0%B0-%D0%BC%D1%83%D1%80%D0%B0%D1%82%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2%D0%BD%D0%B0-en/",
+    "position": "Assistant-professor",
+    "email": "zhkadirbayeva@gmail.com",
+    "education": "al-Farabi Kazakh National UniversityDiscrete mathematics, Mathematical analysisNumerical solution of the boundary value problems for loaded ordinary differential equations"
+  },
+  {
+    "name": "Kaliyev Pazyl",
+    "imageUrl": "https://iitu.edu.kz/media/images/kaliev.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/kaliev-pazyl-uataevich-en/",
+    "position": "Senior-lecturer",
+    "email": "b.rysbaiuly@edu.iitu.kz",
+    "education": "al-Farabi Kazakh National University  Algebra and Geometry, Mathematical Analysis  Spline function methods"
+  },
+  {
+    "name": "Satybaldina Aigul Nurmukhanbetovna",
+    "imageUrl": "https://iitu.edu.kz/media/images/satybaldina.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D1%81%D0%B0%D1%82%D1%8B%D0%B1%D0%B0%D0%BB%D0%B4%D0%B8%D0%BD%D0%B0-%D0%B0%D0%B9%D0%B3%D1%83%D0%BB%D1%8C-%D0%BD%D1%83%D1%80%D0%BC%D1%83%D1%85%D0%B0%D0%BD%D0%B1%D0%B5%D1%82%D0%BE%D0%B2%D0%BD%D0%B0-en/",
+    "position": "Senior-lecturer",
+    "email": "a.satybaldina@edu.iitu.kz",
+    "education": "Kazakh-British Technical UniversityOperations research, Dynamic programming, Numerical methods, Mathematical modeling of energysaving problem on the underground pipelineModeling of an inverse contact energy-saving problem in an underground pipeline"
+  },
+  {
+    "name": "Olzhayev Olzhas Muratuly",
+    "imageUrl": "https://iitu.edu.kz/media/images/olzhaev.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D0%BE%D0%BB%D0%B6%D0%B0%D0%B5%D0%B2-%D0%BE%D0%BB%D0%B6%D0%B0%D1%81-%D0%BC%D1%83%D1%80%D0%B0%D1%82%D1%83%D0%BB%D1%8B-en/",
+    "position": "",
+    "email": "o.olzhaev@gmail.com",
+    "education": "International IT University, Almaty, Kazakhstan  Языки и технологии программирования(Java, C++)"
+  },
+  {
+    "name": "Bayekova Gulaiym Yerbolkyzy",
+    "imageUrl": "https://iitu.edu.kz/media/images/baekova.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/baekova-gulajym-erbolkyzy-en/",
+    "position": "Senior-lecturer",
+    "email": "bayekova.gulaiym@gmail.com",
+    "education": "KBTU, al-Farabi Kazakh National UniversityWeb, Computer Network"
+  },
+  {
+    "name": "Alpar Sultan Duisenuly",
+    "imageUrl": "https://iitu.edu.kz/media/images/alpar.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D0%B0%D0%BB%D0%BF%D0%B0%D1%80-%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD-%D0%B4%D1%83%D0%B9%D1%81%D0%B5%D0%BD%D2%B1%D0%BB%D1%8B-en/",
+    "position": "Senior-lecturer",
+    "email": "rapla.natlus@gmail.com",
+    "education": "International IT University, Almaty, KazakhstanR / Python, Numerical Methods, Algorithms and Data Structures, MСM of Physical Processes,Architecture of Parallel Computing SystemsNumerical simulation of viscous gas flows on unstructured meshes"
+  },
+  {
+    "name": "Tokmukhamedova Fatima Kadyrovna",
+    "imageUrl": "https://iitu.edu.kz/media/images/tokmukhamedova.original.format-jpeg.jpg",
+    "profileUrl": "https://iitu.edu.kz/en/people-en/%D1%82%D0%BE%D0%BA%D0%BC%D1%83%D1%85%D0%B0%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0-%D1%84%D0%B0%D1%82%D0%B8%D0%BC%D0%B0-%D0%BA%D0%B0%D0%B4%D1%8B%D1%80%D0%BE%D0%B2%D0%BD%D0%B0-en/",
+    "position": "Lecturer",
+    "email": "f.tokmukhamedova@edu.iitu.kz",
+    "education": "International IT University, Almaty, KazakhstanNumerical analysis, discrete mathematics, mathematical analysisNumerical solution of the poroelastic wave equation1st place research work of students 2020"
+  }
+]

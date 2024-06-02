@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #161452;
+  color: #161452;
+  cursor: pointer;
+  padding: 6px 20px;
+  width: fit-content;
+  transition: all 0.1s ease-in-out;
+}
+.disabled {
+  background-color: #161452;
+  color: #fff;
+  border: 1px solid #161452;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  background-color: #161452 !important;
+  color: #fff !important;
+  border: 1px solid #161452 !important;
+  cursor: not-allowed;
+}
+
+.fill {
+  background-color: #161452;
+  color: #fff;
+  border: 1px solid #161452;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #161452;
+  border: 1px solid #161452;
+}
+
+.fill:hover {
+  background-color: #fff;
+  color: #161452;
+  border: 1px solid #161452;
+}
+
+.noHover:hover {
+  background-color: #fff;
+  color: #161452;
+  border: 1px solid #161452;
+}

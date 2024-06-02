@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  width: 275px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid #e5e5ea;
+}
+
+.skeleton {
+  display: flex;
+  width: 275px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  height: 103px;
+}
+
+.image {
+  height: 103px;
+  align-self: stretch;
+  border-radius: 12px 12px 0 0;
+}
+
+.info {
+  width: 275px;
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  color: #171717;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.icon {
+  cursor: pointer;
+}

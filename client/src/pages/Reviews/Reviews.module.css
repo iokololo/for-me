@@ -1,0 +1,44 @@
+/* ReviewCard.module.css */
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.authorImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.authorName {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Reviews.module.css */
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

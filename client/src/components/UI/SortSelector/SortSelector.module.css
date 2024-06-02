@@ -1,0 +1,100 @@
+.sortSelector {
+    position: relative;
+    cursor:pointer;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    border-radius: 16px;
+    border: 1px solid #4E77FB;
+    background: #FFF;
+}
+
+.sortText {
+    display: flex;
+}
+
+.blueText {
+    color: #4E77FB;
+}
+
+.blackText {
+    color: #171717;
+}
+
+.sortByText {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.sortOptionText {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.modal {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+    border-radius: 10px;
+}
+
+.options {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    border: 1px solid #ccc;
+    z-index: 1000;
+
+    display: flex;
+    width: 383px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+.option {
+    display: flex;
+    padding: 13px 46px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.option:hover {
+    background: #F1F5FF;
+}
+
+.active {
+    color: #4E77FB;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+}
+

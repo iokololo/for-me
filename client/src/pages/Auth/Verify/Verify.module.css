@@ -1,0 +1,372 @@
+.root {
+  background: url("../background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+
+  /* disable selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.shadow {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #0000004d;
+}
+.wrapper {
+  z-index: 999;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  display: flex;
+}
+.right {
+  min-width: 500px;
+
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px #ffffff59;
+  padding: 40px 32px;
+}
+.formTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.33000001311302185px;
+  color: #2a3044;
+  margin-bottom: 32px;
+}
+
+.form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  /* gap: 12px; */
+}
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: #2a3044;
+  margin-bottom: 12px;
+}
+
+.input {
+  padding: 11px 21px;
+  border-radius: 5px;
+  border: 1px solid #e5e5ea;
+}
+
+.input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #5e5e5e;
+}
+
+.passwordInput {
+  color: var(--Grey, #a7adbf);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.password {
+  border: 1px solid #e5e5ea;
+  display: flex;
+  border-radius: 5px;
+  padding-right: 18px;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 28px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.forgot a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #4e77fb;
+}
+
+.passwordTitle ul {
+  padding-left: 20px;
+}
+
+.submit {
+  background: #4e77fb;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none;
+  margin-top: 68px;
+  width: 100%;
+}
+
+.back {
+  color: #4e77fb;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.back:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+.mb {
+  margin-top: 210px;
+}
+
+.registerText {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #2a3044;
+  margin-top: 53px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #4e77fb;
+}
+
+.inputView {
+  min-width: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #e53935;
+}
+.inputError {
+  border: 1px solid #e53935;
+}
+
+.submit:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.steps {
+  color: var(--Grey, #a7adbf);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  margin-bottom: 20px;
+}
+
+.confirmText {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.email {
+  color: #2a3044;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
+
+.passwordReq {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+.ul {
+  margin-left: 16px;
+}
+
+.phone {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phoneInput {
+  width: 74%;
+  height: 58px;
+  display: flex;
+  padding: 15px 16px;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.secondSubmit {
+  padding: 10px 20px;
+  background: #4e77fb;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  border: none;
+  margin-top: 261px;
+  width: 100%;
+}
+
+.secondSubmit:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.code input {
+  width: 50px;
+  height: 58px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.resendButton {
+  width: 195px;
+  cursor: pointer;
+  color: #5e5e5e;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.resendActive {
+  color: #4e77fb;
+}
+
+.formCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    gap: 100px;
+  }
+  .right {
+    min-width: 250px;
+    padding: 20px 20px;
+  }
+  .title {
+    font-size: 64px;
+  }
+  .formTitle {
+    font-size: 24px;
+  }
+  .input {
+    padding: 11px 16px;
+  }
+  .passwordInput {
+    padding-left: 16px;
+  }
+  .password {
+    padding-right: 16px;
+  }
+  .forgot {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  .registerText {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}

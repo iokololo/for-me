@@ -1,0 +1,18 @@
+.path {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.mainLink {
+    color: #2A3044;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    text-decoration: none;
+}

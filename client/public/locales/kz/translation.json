@@ -1,0 +1,498 @@
+{
+  "navbar": {
+    "login": "Вход",
+    "myProfile": "Мой профиль",
+    "favorite": "Избранное",
+    "buyHistory": "История покупок",
+    "logout": "Выйти",
+    "link1": "Каталог недвижимости",
+    "link2": "Инвестиционное портфолио",
+    "link3": "Для застройщиков",
+    "link4": "Обучение",
+    "language": "Ру",
+    "btnLogin": "Вход",
+    "btnStartInvest": "Начать инвестировать!",
+    "lot": {
+      "text": "Хочу разместить лот",
+      "title": "Начните зарабатывать!",
+      "fillText": "Заполните форму",
+      "city": {
+        "title": "Страна",
+        "placeholder": "Выберите страну"
+      },
+      "comment": {
+        "title": "Комментарий",
+        "placeholder": "Расскажите о лоте, предпочтениях и тд...",
+        "error": "Неверный формат"
+      },
+      "name": {
+        "title": "Имя",
+        "placeholder": "Введите имя",
+        "error": "Неверный формат"
+      },
+      "phone": {
+        "title": "Номер телефона",
+        "placeholder": "+7 (___) ___ __ __",
+        "error": "Неверный формат"
+      },
+      "continue": "Продолжить",
+      "telegram": "Напишите нам в телеграм",
+      "or": "или",
+      "filled": {
+        "title": "С Вами скоро свяжутся",
+        "text": "Наш менеджер перезвонит Вам в течение",
+        "time": "минут",
+        "button": "На главную"
+      }
+    }
+  },
+  "propertyCard": {
+    "min": "минут",
+    "hour": "часов",
+    "days": "дней"
+  },
+  "header": {
+    "title": "Заголовок 1",
+    "subtitle": "горизонтальный банер с УТП (быстро, выгодно, безопасно)"
+  },
+  "section1": "Выбери своё",
+  "mainPageFilters": {
+    "type": {
+      "options": {
+        "type": "Тип программы",
+        "option1": "Книги",
+        "option2": "Менторы",
+        "option3": "Курсы"
+      }
+    },
+    "strategy": {
+      "options": {
+        "strategy": "Стратегия",
+        "option1": "Выгодная перепродажа",
+        "option2": "Флиппинг",
+        "option3": "Сдача в аренду"
+      }
+    },
+    "extendedFilter": {
+      "title": "Расширенный фильтр"
+    },
+    "show": "Показать",
+    "object1": "объект",
+    "object2": "объекта",
+    "object3": "объектов"
+  },
+  "categoryCards": {
+    "card1": "Книги",
+    "card2": "Менторы",
+    "card3": "Курсы",
+    "card4": "Коммерция",
+    "card5": "Готовый бизнес",
+    "card6": "Инвест сделки"
+  },
+  "devider": {
+    "title": "Ready to get started?",
+    "subtitle": "Consistent passive income from monthly rental payments",
+    "button": "Try for free"
+  },
+  "section2": {
+    "more": "Смотреть все",
+    "title1": "Старт продаж",
+    "title2": "Аукцион",
+    "title3": "Готовый бизнес",
+    "title4": "Инвест сделки"
+  },
+
+  "section3": {
+    "city": "Популярные города",
+    "country": "Популярные страны",
+    "subtitle": "предложений"
+  },
+  "section4": {
+    "city": "предложений"
+  },
+  "path": {
+    "main": "Главная",
+    "faq": {
+      "path": "faq",
+      "title": "FAQ"
+    },
+    "search": {
+      "path": "search",
+      "title": "Результаты поиска"
+    },
+    "payment": {
+      "path": "payment",
+      "title": "Оплата"
+    },
+    "showMore": {
+      "investOffer": "Инвест сделки",
+      "auccion": "Аукцион",
+      "bussiness": "Готовый бизнес",
+      "saleStart": "Старт продаж"
+    }
+  },
+  "property": {
+    "description": {
+      "1": {
+        "title": "Здание"
+      },
+      "2": {
+        "title": "Описание"
+      },
+      "3": {
+        "title": "Обзор сделки"
+      },
+      "4": {
+        "title": "Доходность сделки"
+      },
+      "5": {
+        "title": "Прирост капитала"
+      }
+    },
+    "landmark": {
+      "1": {
+        "text": "Город Масдар",
+        "distance": "2,4 км"
+      },
+      "2": {
+        "text": "Ветеринарная клиника Абу-Даби для соколов",
+        "distance": "1 км"
+      }
+    },
+    "checkList": {
+      "1": {
+        "icon": "user",
+        "title": "Propelot Plus",
+        "text": "Мы проверяем качество каждого жилья и ты Propelot Plus"
+      },
+      "2": {
+        "icon": "headphones",
+        "title": "Огранизованное прибытие",
+        "text": "Мы проверяем качество каждого жилья и ты Propelot Plus"
+      },
+      "3": {
+        "icon": "speaker",
+        "title": "Бесплатная отмена брони",
+        "text": "Мы проверяем качество каждого жилья и ты Propelot Plus"
+      }
+    },
+    "timeLeftCard": "Сделка завершится через",
+    "type": "Тип",
+    "residential": "Книги",
+    "cost": "Цена",
+    "saved": "Сохранено",
+    "favorite": "В избранное",
+    "reserve": "Записаться на курс",
+    "reserveAuccion": "Забронировать аукцион",
+    "deal1": {
+      "purchased": "Сделка куплена!",
+      "notPurchased": ""
+    },
+    "deal2": {
+      "purchased": "",
+      "notPurchased": "Заказать сейчас"
+    },
+    "aboutDev": "О книге",
+    "rank": "Рейтинг",
+    "solvency": "",
+    "landMark": "В окрестностях",
+    "viewAll": "Смотреть все",
+    "details": "Подробнее"
+  },
+  "search": {
+    "found": {
+      "1": "Найдено",
+      "2": "объекта"
+    },
+    "filterTitle": {
+      "1": "Тип программы",
+      "2": "Стратегия",
+      "3": "Общая сумма сделки",
+      "4": "Город",
+      "5": "Дата",
+      "6": "Статус колла",
+      "7": "Геолокация",
+      "8": "Страна"
+    },
+    "selectionTitle": {
+      "1": "Курсы",
+      "2": "Менторы",
+      "3": "Курсы",
+      "4": "Зарубежная"
+    },
+    "from": "От",
+    "to": "До",
+    "chooseCity": "Выберите город",
+    "chooseCountry": "Выберите страну",
+    "meter": "м²"
+  },
+  "faq": {
+    "title": "Расскажем все о наших услугах",
+    "search": "Введите Ваш вопрос",
+    "subTitle": {
+      "1": "ТОП-10",
+      "2": "Аукцион",
+      "3": "Старт продаж",
+      "4": "Геомаркетинг",
+      "5": "Флиппинг",
+      "6": "Перепродажа"
+    },
+    "question": {
+      "1": {
+        "1": "How its works",
+        "2": "Test question",
+        "3": "another question",
+        "4": "Reprehenderit butcher retro",
+        "5": "Cosby sweater eu banh mi"
+      },
+      "2": {
+        "1": "2 Raw denim you probably haven't heard",
+        "2": "2 Williamsburg carles vegan helvetica",
+        "3": "2 Raw denim you probably haven't heard",
+        "4": "2 Reprehenderit butcher retro",
+        "5": "2 Cosby sweater eu banh mi"
+      },
+      "3": {
+        "1": "3 Raw denim you probably haven't heard",
+        "2": "3 Williamsburg carles vegan helvetica",
+        "3": "3 Raw denim you probably haven't heard",
+        "4": "3 Reprehenderit butcher retro",
+        "5": "3 Cosby sweater eu banh mi"
+      },
+      "4": {
+        "1": "4 Raw denim you probably haven't heard",
+        "2": "4 Williamsburg carles vegan helvetica",
+        "3": "4 Raw denim you probably haven't heard",
+        "4": "4 Reprehenderit butcher retro",
+        "5": "4 Cosby sweater eu banh mi"
+      },
+      "5": {
+        "1": "5 Raw denim you probably haven't heard",
+        "2": "5 Williamsburg carles vegan helvetica",
+        "3": "5 Raw denim you probably haven't heard",
+        "4": "5 Reprehenderit butcher retro",
+        "5": "5 Cosby sweater eu banh mi"
+      }
+    },
+    "answer": {
+      "1": {
+        "1": "Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "2": "Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+        "3": "Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "4": "Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+        "5": "Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+      },
+      "2": {
+        "1": "2 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "2": "2 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+        "3": "2 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "4": "2 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+        "5": "2 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+      },
+      "3": {
+        "1": "3 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "2": "3 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+        "3": "3 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "4": "3 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+        "5": "3 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+      },
+      "4": {
+        "1": "4 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "2": "4 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+        "3": "4 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "4": "4 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+        "5": "4 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+      },
+      "5": {
+        "1": "5 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "2": "5 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+        "3": "5 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+        "4": "5 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+        "5": "5 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+      }
+    }
+  },
+  "footer": {
+    "left": {
+      "title": "ПРОДУКТЫ",
+      "1": "Курсы",
+      "2": "Менторы",
+      "3": "Курсы",
+      "4": "Инвестиционные сделки"
+    },
+    "center": {
+      "title": "РЕШЕНИЯ",
+      "1": "Обучение",
+      "2": "Для застройщиков"
+    },
+    "right": {
+      "title": "КОМПАНИЯ",
+      "1": "О компании",
+      "2": "Чат",
+      "3": "FAQ"
+    },
+    "social": {
+      "title": "СОЦИАЛЬНЫЕ СЕТИ"
+    }
+  },
+  "auth": {
+    "invalid": "Неверный формат",
+    "login": {
+      "title": "Вход",
+      "email": {
+        "label": "Адрес электронной почты",
+        "placeholder": "Введите e-mail"
+      },
+      "password": {
+        "label": "Пароль",
+        "placeholder": "Введите пароль",
+        "error": "Неверный пароль"
+      },
+      "forgot": "Забыл пароль",
+      "button": "Продолжить",
+      "register": "Новый пользователь? ",
+      "link": "Зарегистрироваться"
+    },
+    "register": {
+      "back": "Назад",
+      "email": {
+        "label": "Адрес электронной почты",
+        "placeholder": "Введите e-mail",
+        "exist": "Email уже существует"
+      },
+      "title": "Регистрация",
+      "step": "Шаг ",
+      "of": " из ",
+      "name": {
+        "label": "Имя",
+        "placeholder": "Введите"
+      },
+      "login": "Уже есть аккаунт? ",
+      "password": {
+        "placeholder": "Введите пароль",
+        "concoct": "Придумайте пароль",
+        "confirm": "Подтвердите пароль",
+        "requirements": {
+          "title": "Пароль должен содержать:",
+          "letter": "буквы латинского алфавита;",
+          "length": "минимум 8 символов;",
+          "uppercase": "минимум одну заглавную букву;",
+          "lowercase": "минимум одну строчную букву;",
+          "number": "минимум одну цифру"
+        }
+      },
+      "phone": {
+        "label": "Введите номер телефона",
+        "placeholder": "(___) ___ __ __",
+        "error": "Неверный формат номера"
+      },
+      "code": {
+        "label": "Введите отправленный код",
+        "resend": "Отправить повторно"
+      },
+
+      "link": "Войти",
+      "confirm": "Подтверждение",
+      "confirmText": "Ссылка на подтверждение отправлена на",
+      "button": "Продолжить",
+      "quiz": {
+        "title": "Расскажи о себе"
+      }
+    },
+    "forgot": {
+      "title": "Восстановление пароля",
+      "email": {
+        "label": "Адрес электронной почты",
+        "placeholder": "Введите email"
+      },
+      "password": {
+        "error": "Неверный пароль"
+      },
+      "doesntMatch": "Пароли не совпадают",
+      "button": "Продолжить",
+      "backToLogin": "Вернуться на страницу входа"
+    }
+  },
+  "edit": {
+    "continue": "Чтобы продолжить,",
+    "fill": "Заполните данные",
+    "saved": "Сохранено",
+    "transfer": "Переводим на страницу оплаты..."
+  },
+  "gallery": {
+    "error": "Что то пошло не так",
+    "back": "Назад",
+    "offers": "предложений"
+  },
+  "map": {
+    "back": "Назад",
+    "geo": "Гео анализ",
+    "search": "Поиск",
+    "country": "Страна",
+    "city": "Город",
+    "value": {
+      "1": "Трафик",
+      "2": "Активность",
+      "3": "Показатель"
+    },
+    "superValue": {
+      "super": "Супер",
+      "1": "Трафик",
+      "2": "Активность",
+      "3": "Показатель"
+    },
+    "superPercent": "00%",
+    "fullAnalysis": "Нужен полный анализ?",
+    "order": "Заказать сейчас",
+    "deal": "сделок"
+  },
+  "payment": {
+    "connect": "С Вами скоро свяжутся",
+    "contact": "Наш менеджер перезвонит Вам в течение",
+    "minute": "минут",
+    "main": "На главную",
+    "back": "Назад",
+    "choose": "Выберите способ оплаты",
+    "card": "Оплата картой",
+    "qr": "Оплата через QR",
+    "continue": "Продолжить",
+    "ads": {
+      "1": "Инвестируй в знание!",
+      "2": "Получи бесплатные уроки с преподавателем",
+      "3": "и забирай свой сертификат."
+    },
+    "reserveLot": "Записаться на курс",
+    "fullPay": "Оплатить полностью",
+    "connectDev": "Связаться с компанией",
+    "buyPlace": "Купить курс"
+  },
+  "profile": {
+    "save": "Сохранить",
+    "error": "Неверный формат",
+    "document": "Данные документа",
+    "noData": "Нет данных",
+    "fill": "Заполнить",
+    "fullName": "ФИО",
+    "numberOfDocument": "№ документа",
+    "iin": "ИИН",
+    "address": "Адрес",
+    "edit": "Редактировать",
+    "favorite": "Избранное",
+    "history": "История покупок",
+    "files": "Купленные файлы",
+    "booking": "Оплаченные брони",
+    "auctions": "Аукционы"
+  },
+  "showMore": {
+    "terms": "Условия участия",
+    "howItWorks": "Как это работает?",
+    "closestLot": "Webinar:",
+    "title": "Информация"
+  },
+  "fileCard": {
+    "geoAnalysis": "Геоанализ"
+  },
+  "history": {
+    "empty": "Список пуст"
+  }
+}

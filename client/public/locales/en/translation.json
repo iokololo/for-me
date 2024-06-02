@@ -1,0 +1,491 @@
+{
+  "navbar": {
+    "login": "Login",
+    "myProfile": "My Profile",
+    "favorite": "Favorites",
+    "buyHistory": "Purchase History",
+    "logout": "Logout",
+    "link1": "Library",
+    "link2": "Courses",
+    "link3": "Teachers",
+    "link4": "About us",
+    "language": "Eng",
+    "btnLogin": "Login",
+    "btnStartInvest": "Start Investing!",
+    "lot": {
+      "text": "Cooperate",
+      "title": "Start earning!",
+      "fillText": "Fill out the form",
+      "city": {
+        "title": "City",
+        "placeholder": "Select a city"
+      },
+      "comment": {
+        "title": "Comment",
+        "placeholder": "Tell us about the lot, preferences, etc...",
+        "error": "Invalid format"
+      },
+      "name": {
+        "title": "Name",
+        "placeholder": "Enter name",
+        "error": "Invalid format"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "placeholder": "+7 (___) ___ __ __",
+        "error": "Invalid format"
+      },
+      "continue": "Continue",
+      "telegram": "Write to us on Telegram",
+      "or": "or",
+      "filled": {
+        "title": "We will contact you soon",
+        "text": "Our manager will call you back within",
+        "time": "minutes",
+        "button": "To the main page"
+      }
+    }
+  },
+  "propertyCard": {
+    "min": "minutes",
+    "hour": "hours",
+    "days": "days"
+  },
+  "header": {
+    "title": "Title 1",
+    "subtitle": "horizontal banner with UTP (fast, profitable, safe)"
+  },
+  "section1": "Choose yours",
+  "mainPageFilters": {
+    "type": {
+      "options": {
+        "type": "Property Type",
+        "option1": "Project Management",
+        "option2": "Python Development",
+        "option3": "Motion design"
+      }
+    },
+    "strategy": {
+      "options": {
+        "strategy": "Strategy",
+        "option1": "Profitable Resale",
+        "option2": "Flipping",
+        "option3": "Renting Out"
+      }
+    },
+    "extendedFilter": {
+      "title": "Advanced Filter"
+    },
+    "show": "Show",
+    "object": "objects"
+  },
+  "categoryCards": {
+    "card1": "Python Development",
+    "card2": "Graphic Design",
+    "card3": "Java Development",
+    "card4": "Machine Learning",
+    "card5": " BI Analytics"
+  },
+  "devider": {
+    "title": "Ready to get started?",
+    "subtitle": "Education is the key to unlocking peace!",
+    "button": "Challenge yourself!"
+  },
+  "section2": {
+    "more": "See all",
+    "title1": "Start learning the Courses",
+    "title2": "Find Books",
+    "title3": "Recomendations",
+    "title4": "Reviews"
+  },
+
+  "section3": {
+    "city": "Popular Books",
+    "country": "Popular Courses"
+  },
+  "path": {
+    "main": "Main",
+    "faq": {
+      "path": "faq",
+      "title": "FAQ"
+    },
+    "search": {
+      "path": "search",
+      "title": "Search Results"
+    },
+    "payment": {
+      "path": "payment",
+      "title": "Payment"
+    },
+    "showMore": {
+      "investOffer": "Investment Deals",
+      "auction": "Auction",
+      "business": "Business",
+      "saleStart": "Sales Start"
+    }
+  },
+  "property": {
+    "description": {
+      "1": {
+        "title": "Building"
+      },
+      "2": {
+        "title": "Description"
+      },
+      "3": {
+        "title": "Deal Overview"
+      },
+      "4": {
+        "title": "Deal Profitability"
+      },
+      "5": {
+        "title": "Capital Growth"
+      }
+    },
+    "landmark": {
+      "1": {
+        "text": "Masdar City",
+        "distance": "2.4 km"
+      },
+      "2": {
+        "text": "Abu Dhabi Falcon Hospital",
+        "distance": "1 km"
+      }
+    },
+    "checkList": {
+      "1": {
+        "icon": "user",
+        "title": "Propelot Plus",
+        "text": "We check the quality of every housing and you Propelot Plus"
+      },
+      "2": {
+        "icon": "headphones",
+        "title": "Organized Arrival",
+        "text": "We check the quality of every housing and you Propelot Plus"
+      },
+      "3": {
+        "icon": "speaker",
+        "title": "Free Cancellation of Reservation",
+        "text": "We check the quality of every housing and you Propelot Plus"
+      }
+    },
+    "timeLeftCard": "The deal will close in",
+    "type": "Type",
+    "residential": "Residential",
+    "cost": "Price",
+    "saved": "Saved",
+    "favorite": "Add to Favorites",
+    "reserve": "Reserve Lot",
+    "reserveAuction": "Reserve Auction",
+    "deal1": {
+      "purchased": "Deal purchased!",
+      "notPurchased": "Need a full financial deal analysis?"
+    },
+    "deal2": {
+      "purchased": "Open financial text of the deal",
+      "notPurchased": "Order now"
+    },
+    "aboutDev": "About the Author",
+    "rank": "Experience",
+    "solvency": "Hourly rate: ",
+    "landMark": "Nearby",
+    "viewAll": "View All",
+    "details": "More Details"
+  },
+  "search": {
+    "found": {
+      "1": "Found",
+      "2": "objects"
+    },
+    "filterTitle": {
+      "1": "Property Type",
+      "2": "Strategy",
+      "3": "Total Deal Amount",
+      "4": "City",
+      "5": "Area",
+      "6": "Construction Status"
+    },
+    "selectionTitle": {
+      "1": "Residential",
+      "2": "Commerce",
+      "3": "Land Plots",
+      "4": "Foreign"
+    },
+    "from": "From",
+    "to": "To",
+    "chooseCity": "Select a city",
+    "meter": "m²"
+  },
+  "faq": {
+      "title": "We’ll tell you all about our services",
+      "search": "Enter Your Question",
+      "subTitle": {
+        "1": "TOP-10",
+        "2": "Auction",
+        "3": "Sales Start",
+        "4": "Geomarketing",
+        "5": "Flipping",
+        "6": "Resale"
+      },
+      "question": {
+        "1": {
+          "1": "How its works",
+          "2": "Test question",
+          "3": "another question",
+          "4": "Reprehenderit butcher retro",
+          "5": "Cosby sweater eu banh mi"
+        },
+        "2": {
+          "1": "2 Raw denim you probably haven't heard",
+          "2": "2 Williamsburg carles vegan helvetica",
+          "3": "2 Raw denim you probably haven't heard",
+          "4": "2 Reprehenderit butcher retro",
+          "5": "2 Cosby sweater eu banh mi"
+        },
+        "3": {
+          "1": "3 Raw denim you probably haven't heard",
+          "2": "3 Williamsburg carles vegan helvetica",
+          "3": "3 Raw denim you probably haven't heard",
+          "4": "3 Reprehenderit butcher retro",
+          "5": "3 Cosby sweater eu banh mi"
+        },
+        "4": {
+          "1": "4 Raw denim you probably haven't heard",
+          "2": "4 Williamsburg carles vegan helvetica",
+          "3": "4 Raw denim you probably haven't heard",
+          "4": "4 Reprehenderit butcher retro",
+          "5": "4 Cosby sweater eu banh mi"
+        },
+        "5": {
+          "1": "5 Raw denim you probably haven't heard",
+          "2": "5 Williamsburg carles vegan helvetica",
+          "3": "5 Raw denim you probably haven't heard",
+          "4": "5 Reprehenderit butcher retro",
+          "5": "5 Cosby sweater eu banh mi"
+        }
+      },
+      "answer": {
+        "1": {
+          "1": "Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "2": "Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+          "3": "Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "4": "Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+          "5": "Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+        },
+        "2": {
+          "1": "2 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "2": "2 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+          "3": "2 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "4": "2 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+          "5": "2 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+        },
+        "3": {
+          "1": "3 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "2": "3 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+          "3": "3 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "4": "3 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+          "5": "3 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+        },
+        "4": {
+          "1": "4 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "2": "4 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+          "3": "4 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "4": "4 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+          "5": "4 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+        },
+        "5": {
+          "1": "5 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "2": "5 Williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.",
+          "3": "5 Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.",
+          "4": "5 Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid.",
+          "5": "5 Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone."
+        }
+      },
+      "footer": {
+          "left": {
+            "title": "PRODUCTS",
+            "1": "Lots",
+            "2": "Commerce",
+            "3": "Investment Portfolio"
+          },
+          "center": {
+            "title": "SOLUTIONS",
+            "1": "Training",
+            "2": "For developers"
+          },
+          "right": {
+            "title": "COMPANY",
+            "1": "About the company",
+            "2": "Chat",
+            "3": "FAQ"
+          },
+          "social": {
+            "title": "SOCIAL NETWORKS"
+          }
+        },
+        "auth": {
+          "invalid": "Invalid format",
+          "login": {
+            "title": "Login",
+            "email": {
+              "label": "Email address",
+              "placeholder": "Enter e-mail"
+            },
+            "password": {
+              "label": "Password",
+              "placeholder": "Enter password",
+              "error": "Incorrect password"
+            },
+            "forgot": "Forgot password",
+            "button": "Continue",
+            "register": "New user? ",
+            "link": "Register"
+          },
+          "register": {
+            "role": {
+              "label": "Role",
+              "student": "Student",
+              "teacher": "Teacher"
+            },
+            "back": "Back",
+            "email": {
+              "label": "Email address",
+              "placeholder": "Enter e-mail",
+              "exist": "Email alexists"
+            },
+            "title": "Registration",
+            "step": "Step ",
+            "of": " of ",
+            "name": {
+              "label": "Name",
+              "placeholder": "Enter"
+            },
+            "login": "Alhave an account? ",
+            "password": {
+              "placeholder": "Enter password",
+              "concoct": "Create a password",
+              "confirm": "Confirm password",
+              "requirements": {
+                "title": "The password must contain:",
+                "letter": "Latin alphabet letters;",
+                "length": "at least 8 characters;",
+                "uppercase": "at least one uppercase letter;",
+                "lowercase": "at least one lowercase letter;",
+                "number": "at least one number"
+              }
+            },
+            "phone": {
+              "label": "Enter phone number",
+              "placeholder": "(___) ___ __ __",
+              "error": "Invalid phone number format"
+            },
+            "code": {
+              "label": "Enter the code sent",
+              "resend": "Send again"
+            },
+            "link": "Log in",
+            "confirm": "Confirmation",
+            "confirmText": "A confirmation link has been sent to",
+            "button": "Continue",
+            "quiz": {
+              "title": "Tell us about yourself"
+            }
+          },
+          "forgot": {
+            "title": "Password recovery",
+            "email": {
+              "label": "Email address",
+              "placeholder": "Enter email"
+            },
+            "password": {
+              "error": "Incorrect password"
+            },
+            "doesntMatch": "Passwords do not match",
+            "button": "Continue",
+            "backToLogin": "Return to login page"
+          }
+        },
+        "edit": {
+          "continue": "To continue,",
+          "fill": "Fill in the data",
+          "saved": "Saved",
+          "transfer": "Transferring to the payment page..."
+        },
+        "gallery": {
+          "error": "Something went wrong",
+          "back": "Back",
+          "offers": "offers"
+        },
+        "map": {
+          "back": "Back",
+          "geo": "Geo analysis",
+          "search": "Search",
+          "country": "Country",
+          "city": "City",
+          "value": {
+            "1": "Traffic",
+            "2": "Activity",
+            "3": "Indicator"
+          },
+          "superValue": {
+            "super": "Super",
+            "1": "Traffic",
+            "2": "Activity",
+            "3": "Indicator"
+          },
+          "superPercent": "00%",
+          "fullAnalysis": "Need a full analysis?",
+          "order": "Order now",
+          "deal": "deals"
+        },
+        "payment": {
+          "connect": "We will contact you soon",
+          "contact": "Our manager will call you back within",
+          "minute": "minutes",
+          "main": "Main page",
+          "back": "Back",
+          "choose": "Choose payment method",
+          "card": "Card payment",
+          "qr": "QR payment",
+          "continue": "Continue",
+          "ads": {
+            "1": "Pay now - increase profit",
+            "2": "Access to geo analysis + bonus of",
+            "3": "100,000 ₸ on the first purchase"
+          },
+          "reserveLot": "Reserve a lot",
+          "fullPay": "Pay in full",
+          "connectDev": "Contact developer",
+          "buyPlace": "Buy a spot"
+        },
+        "profile": {
+          "save": "Save",
+          "error": "Invalid format",
+          "document": "Document data",
+          "noData": "No data",
+          "fill": "Fill in",
+          "fullName": "Full name",
+          "numberOfDocument": "Document number",
+          "iin": "IIN",
+          "address": "Address",
+          "edit": "Edit",
+          "favorite": "Favorites",
+          "history": "Purchase history",
+          "files": "Purchased files",
+          "booking": "Paid reservations",
+          "auctions": "Auctions"
+        },
+        "showMore": {
+          "terms": "Terms of participation",
+          "howItWorks": "How it works?",
+          "closestLot": "Webinar:",
+          "title": "Information"
+        },
+        "fileCard": {
+          "geoAnalysis": "Geo analysis"
+        },
+        "history": {
+          "empty": "The list is empty"
+        }
+      }
+    }

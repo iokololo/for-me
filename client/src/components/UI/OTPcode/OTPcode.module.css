@@ -1,0 +1,88 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #2a3044;
+    margin-bottom: 12px;
+}
+
+.code {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.code input {
+    width: 50px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.resendButton {
+    width: 195px;
+    cursor: pointer;
+    color: #5e5e5e;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.resendActive {
+    color: #4e77fb;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #e53935;
+}
+
+
+.submit {
+    border: none;
+    display: flex;
+    width: 449px;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    background: #4E77FB;
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    margin-top: 210px;
+}
+
+.submit:hover {
+    background: #fff;
+    color: #4e77fb;
+    border: 1px solid #4e77fb;
+}

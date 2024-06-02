@@ -1,0 +1,23 @@
+.button {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 6px 8px 0px #0000003d;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4e77fb;
+  color: #fff;
+}
+
+.button:hover > div > svg > g > path {
+  stroke: #fff;
+}

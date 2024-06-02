@@ -1,0 +1,308 @@
+[
+  {
+    "_id": "663b38283f87e0007789f1b1",
+    "title": [
+      "Clean code",
+      "Clean code",
+      "Clean code"
+    ],
+    "images": [
+      "https://248006.selcdn.ru/main/upload/setka_images/11174713082021_b3172e0e80ea58a06029b19ee1ed063c9acfd44d.jpg.webp"
+    ],
+    "onMainPage": true,
+    "type": "Books",
+    "price": 1000,
+    "rating": 0,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "чтобы научиться замечать типичные ошибки и не делать их самому. Например, не пускать на самотёк именование переменных, подпрограмм и модулей, форматирование кода, обработку граничных условий — то, что по отдельности кажется мелочью, а всё вместе безбожно портит код."
+    ],
+    "book_url": "https://drive.google.com/file/d/1N1YawrfG4Uk4ljigWHdhXnsA_kwZFRav/view",
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b652691fd4aacd796adbe",
+    "title": [
+      "Machine Learning ",
+      "Machine Learning ",
+      "Machine Learning "
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1534774592507-488885376ad3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3wzMjg4NzcwfHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/1448152764/photo/data-science-and-big-data-analysis-technology-data-scientist-working-with-complex.webp?b=1&s=170667a&w=0&k=20&c=Zbn6uUukmRrFQwB0Z4evQmXw28HHBLJ7nLokLXUFhY4=",
+      "https://media.istockphoto.com/id/1455300089/photo/data-science-specialists-working-at-office-together.webp?b=1&s=170667a&w=0&k=20&c=KNwQPLTY0UWhURc5qIt3l8oAkdhOBzAsPm448DRVp8Y=",
+      "https://media.istockphoto.com/id/1486587303/photo/metaverse-cyberpunk-style-city-with-artificial-man-walking-on-street-neon-lighting-on.webp?b=1&s=170667a&w=0&k=20&c=MmxcpdnVZLMokrhXh7vNItWr9D08zo-g4zi-IoQHDqo=",
+      "https://media.istockphoto.com/id/1515913422/photo/a-data-analyst-using-technology-ai-for-working-tool-for-data-analysis-chatbot-chat-with-ai.jpg?s=612x612&w=0&k=20&c=oOKLdZJpcsrUbNrnGVf8TwoIdYud4mWoBkx1A3PdXI0="
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 15000,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "lessons": [
+      {
+        "title": "Lesson 1 ",
+        "video_url": "https://www.youtube.com/embed/ukzFI9rgwfU?si=NY-gNohk0pz7o032",
+        "text": "Introduction to the course",
+        "order": 1,
+        "_id": "663b652691fd4aacd796adbf"
+      }
+    ],
+    "description": [
+      "q"
+    ],
+    "book_url": "",
+    "__v": 0
+  },
+  {
+    "_id": "663b6a2ff8cbe29cb6e9bfed",
+    "title": [
+      "Python Development",
+      "Python Development",
+      "Python Development"
+    ],
+    "images": [
+      "https://media.istockphoto.com/id/1432637898/photo/button-with-the-python-on-the-yellow-keyboard-of-modern-laptop.webp?b=1&s=170667a&w=0&k=20&c=loymOqOdDX6uHWzUDyKdupCOV9XZaj5RyuKyMd_AOks=",
+      "https://media.istockphoto.com/id/1509487625/photo/software-developer-or-programmer-coding-program-with-laptop-create-intelligence-innovation.webp?b=1&s=170667a&w=0&k=20&c=ul1WIAVcf8eEVJ1fAQRXbTb2_eQ9Gjyd9vK2PcVwqpc=",
+      "https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.webp?b=1&s=170667a&w=0&k=20&c=CfaVabgMcwwc-ijzVAxNs_Sz6q3JVPJnlQ-Py-dpuAQ=",
+      "https://media.istockphoto.com/id/1449171785/photo/young-it-specialist-working-at-pc-at-home-debugging-java-script-cyber-space-error.webp?b=1&s=170667a&w=0&k=20&c=3ihdFIZQEwRX4fYgFhIIq4jGINJyv5CPuZ7JRo4ArIA=",
+      "https://media.istockphoto.com/id/1288009387/photo/software-development-system-engineer-programming-digital-transformation.webp?b=1&s=170667a&w=0&k=20&c=38dXeIfleIpMXJ6FL1UydcPv-48EGeyFQZMdh5-VUWA="
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 18000,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "Python development course",
+      "Python development course",
+      "Python development course"
+    ],
+    "lessons": [
+      {
+        "title": "Lesson 1",
+        "video_url": "https://www.youtube.com/embed/34Rp6KVGIEM?si=CnfXbW2gEamqG30k",
+        "text": "Introduction to the Python",
+        "order": 1,
+        "_id": "663de6abc02e98aabad527d2"
+      },
+      {
+        "title": "Lesson 2",
+        "video_url": "https://www.youtube.com/embed/CfqX2_xY8VQ?si=yAbgGR6zzlSAu9hh",
+        "order": 2,
+        "_id": "665246a1f56814f18d6546eb"
+      },
+      {
+        "title": "Lesson 3",
+        "video_url": "https://www.youtube.com/embed/ML5tP8m6SHw?si=XhwKnSmF7gZwHIlb",
+        "order": 3,
+        "_id": "665246a1f56814f18d6546ec"
+      },
+      {
+        "title": "Lesson 4 ",
+        "video_url": "https://www.youtube.com/embed/DZvNZ9l9NT4?si=XoWRihKye25pmEev",
+        "order": 4,
+        "_id": "665246a1f56814f18d6546ed"
+      },
+      {
+        "title": "Lesson 5",
+        "video_url": "https://www.youtube.com/embed/SUDNfS_0X-Q?si=fKgBfBEU6scWaoz-",
+        "order": 5,
+        "_id": "665246a1f56814f18d6546ee"
+      },
+      {
+        "title": "Lesson 6",
+        "video_url": "https://www.youtube.com/embed/vMD6-jzgDvI?si=aSoB2xDOvFb6-1Dq",
+        "order": 6,
+        "_id": "665246a1f56814f18d6546ef"
+      },
+      {
+        "title": "Lesson 7",
+        "video_url": "https://www.youtube.com/embed/-X2ubBdP2Ak?si=_2AhlLcvHYcKnYj0",
+        "order": 7,
+        "_id": "665246a1f56814f18d6546f0"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "663b8a0df8cbe29cb6e9c044",
+    "title": [
+      "Graphic Design",
+      "Graphic Design",
+      "Graphic Design"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1519408469771-2586093c3f14?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1534669740902-e09e38a6a29f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1540242908484-50aa09aea5a7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYXBoaWMlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D"
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 10000,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "Graphic design"
+    ],
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b8abff8cbe29cb6e9c075",
+    "title": [
+      "Business Analytics",
+      "Business Analytics",
+      "Business Analytics"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1524749292158-7540c2494485?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1c2luZXNzJTIwYW5hbHl0aWNzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3MlMjBhbmFseXRpY3N8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1553268169-8232852a2377?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1c2luZXNzJTIwYW5hbHl0aWNzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1683141154082-324d296f3c66?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YnVzaW5lc3MlMjBhbmFseXRpY3N8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1c2luZXNzJTIwYW5hbHl0aWNzfGVufDB8fDB8fHww"
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 15000,
+    "rating": 4,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "Analytics"
+    ],
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b8bfaf8cbe29cb6e9c0bf",
+    "title": [
+      "Introduction to Java",
+      "Introduction to Java",
+      "Introduction to Java"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8amF2YXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1519163219899-21d2bb723b3e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGphdmF8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1585332889055-059af80a9b5f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGphdmF8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1617729420692-219af0d56dae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGphdmF8ZW58MHx8MHx8fDA%3D",
+      "https://media.istockphoto.com/id/1431876307/photo/businessman-clicks-java-programming-language-application-concept-on-virtual-screen.jpg?s=612x612&w=0&k=20&c=gxhUdWqk-5Q987RCUpA-zIZMxzbCHSnyGpgTHUvxfcw="
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 25000,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [],
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b8cd8f8cbe29cb6e9c0d3",
+    "title": [
+      "Introduction to C++",
+      "Introduction to C++",
+      "Introduction to C++"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564798605859-a4ab4a561b2a?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTA1OTg4Njd8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1550063873-ab792950096b?dpr=2&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NzQ3MjI4MDJ8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/172262998/photo/computer-code.webp?b=1&s=170667a&w=0&k=20&c=0enEk5-JmbLbPqHQL1ISlBgk1j-qFN2l4mDZBE7wV6I=",
+      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nJTIwYyUyQiUyQnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1483817101829-339b08e8d83f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZGluZyUyMGMlMkIlMkJ8ZW58MHx8MHx8fDA%3D"
+    ],
+    "onMainPage": true,
+    "type": "Courses",
+    "price": 20000,
+    "rating": 4,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "How to code in C++"
+    ],
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b8e9bf8cbe29cb6e9c166",
+    "title": [
+      "Grokking Algorithms",
+      "Grokking Algorithms",
+      "Grokking Algorithms"
+    ],
+    "images": [
+      "https://skillbox.ru/upload/setka_images/10582011082021_c0c954a3a268bfc515e88839a41a25de5bd1b194.jpg"
+    ],
+    "onMainPage": true,
+    "type": "Books",
+    "price": 2000,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [
+      "Алгоритмы - это всего лишь пошаговые алгоритмы решения задач, и большинство таких задач уже были кем-то решены, протестированы и проверены. Можно, конечно, погрузится в глубокую философию гениального Кнута, изучить многостраничные фолианты с доказательствами и обоснованиями, но хотите ли вы тратить на это свое время? Откройте великолепно иллюстрированную книгу и вы сразу поймете, что алгоритмы - это просто. А грокать алгоритмы - это веселое и увлекательное занятие."
+    ],
+    "book_url": "https://drive.google.com/file/d/1bFAVT8G_Y2iLO212US8IpOF_YvXbrXC7/view",
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "663b90eff8cbe29cb6e9c1ab",
+    "title": [
+      "Head First",
+      "Head First",
+      "Head First"
+    ],
+    "images": [
+      "https://skillbox.ru/upload/setka_images/10582011082021_0ed1686442ac630326a48ddcef43684fa02b904b.jpg"
+    ],
+    "onMainPage": true,
+    "type": "Books",
+    "price": 1000,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [],
+    "book_url": "https://drive.google.com/file/d/1leM-JRVJgPk8JIXFsjnObJ2cAn9JuTBb/view",
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "6649b179c02e98aabad52cfc",
+    "title": [
+      "Button needs text",
+      "Button needs text",
+      "Button needs text"
+    ],
+    "images": [
+      "https://skillbox.ru/upload/setka_images/12404424012024_cece785eb92cd643f5e788e5f37e3d933a76f56c.jpg"
+    ],
+    "onMainPage": true,
+    "type": "Books",
+    "price": 1500,
+    "rating": 5,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [],
+    "book_url": "https://drive.google.com/drive/my-drive?hl=ru",
+    "lessons": [],
+    "__v": 0
+  },
+  {
+    "_id": "6649b358c02e98aabad52d32",
+    "title": [
+      "Ководство",
+      "Ководство",
+      "Ководство"
+    ],
+    "images": [
+      "https://skillbox.ru/upload/setka_images/12361324012024_6896a8696b8038f4fc8989ab005e4fccc3b90047.jpg"
+    ],
+    "onMainPage": true,
+    "type": "Books",
+    "price": 2200,
+    "rating": 4,
+    "author": "6652540c99d58a66fc7d422e",
+    "description": [],
+    "book_url": "https://editors.tsu.ru/e-lib/%D0%9A%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE.%20%D0%9F%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%D1%8B%20%D0%BE%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5.pdf",
+    "lessons": [],
+    "__v": 0
+  }
+]

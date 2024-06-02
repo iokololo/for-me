@@ -1,0 +1,658 @@
+.link {
+  text-decoration: none;
+}
+
+.root {
+  padding: 24px 0;
+  /* disable select */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+
+  box-shadow: 0px 6px 24px 0px #00000012;
+}
+.lngmenu {
+  right: inherit !important;
+  background: #000;
+}
+
+.menu {
+  position: absolute;
+  z-index: 99;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  right: inherit;
+  width: 213px;
+  right: calc((100% - 1180px) / 2 - 56px);
+  top: 80px;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #2a3044;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.rightBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.lotText {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.lotTop {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  gap: 92px;
+}
+
+.lotTitle {
+  color: #2a3044;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.33px;
+}
+
+.lotWrapper {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.lotMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.fillForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.lotFillText {
+  color: #2a3044;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.1px;
+}
+
+.lotBlocks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.lotBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.lotBlockTitle {
+  color: #2a3044;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.lotCommentInput {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 39px 41px 21px;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  border: 1px solid #e5e5ea;
+  background: #fff;
+
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+.select {
+  width: 100%;
+  height: 58px;
+  padding: 14px 15px;
+  outline: none;
+
+  border-radius: 5px;
+  border: 1px solid #e5e5ea;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+.lotCommentInput::placeholder {
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+.lotBlockInput {
+  width: 100%;
+  display: flex;
+  padding: 11px 39px 11px 21px;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 5px;
+  border: 1px solid #e5e5ea;
+  background: #fff;
+
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+.lotBlockInput::placeholder {
+  color: #a7adbf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+.lotContinue {
+  width: 100% !important;
+  background: #4e77fb !important;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none !important;
+}
+
+.lotContinue:hover {
+  background: #fff !important;
+  color: #4e77fb !important;
+  border: 1px solid #4e77fb !important;
+}
+
+.lotContinueDisabled:disabled:hover {
+  background: #000 !important;
+  color: #4e77fb !important;
+  border: 1px solid #4e77fb !important;
+}
+
+.lotOR {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lotORLine {
+  width: 100%;
+  height: 1px;
+  background: #e5e5ea;
+}
+
+.lotORText {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.lotTelegram {
+  display: flex;
+  width: 449px;
+  padding: 15px 30px;
+  align-items: center;
+  gap: 15px;
+
+  border-radius: 16px;
+  border: 1px solid #e53935;
+}
+
+.lotTelegramText {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.lotTelegram:hover .lotTelegramIcon svg g path {
+  stroke: #fff;
+}
+
+.filled {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 16px 0;
+  align-items: center;
+  gap: 80px;
+  flex-shrink: 0;
+}
+
+.filledMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.filledText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filledText1 {
+  color: #2a3044;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.1px;
+}
+
+.filledText2 {
+  color: #2a3044;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
+
+.filledButton {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #e53935;
+}
+
+.lotBlockInputError {
+  border: 1px solid #e53935;
+}
+.lot {
+  display: block;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+  /* disable select */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.language__text {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #2a3044;
+}
+
+.badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #cbd6fa;
+  color: #171717;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.menu__item {
+  padding: 13px 33px;
+  text-align: center;
+  text-decoration: none;
+  color: #2a3044;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 10px;
+}
+
+.menu__item:hover {
+  background: #f1f5ff;
+  color: #4e77fb;
+}
+.iconLogin {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 4px;
+}
+
+.menu__item:nth-child(4) {
+  border-top: 1px solid #e9eefb;
+}
+
+@media screen and (max-width: 1180px) {
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 100%;
+    right: 0;
+    top: 50px;
+    border-radius: 0;
+  }
+  .lot {
+    display: none !important;
+  }
+  .lotText {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .rightBlock {
+    gap: 12px;
+  }
+  .menu__item {
+    padding: 13px 0;
+  }
+  .menu__item:hover {
+    background: #f1f5ff;
+    color: #4e77fb;
+  }
+  .language {
+    /* display: none; */
+  }
+  .lngmenu {
+    right: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .center {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .root {
+    padding: 16px 0;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .block {
+    gap: 8px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 14px;
+  }
+  .bottom {
+    font-size: 10px;
+  }
+  .digit {
+    font-size: 12px;
+    width: 16px;
+    height: 20px;
+  }
+  .priceFlex {
+    gap: 8px;
+  }
+  .buttons {
+    gap: 4px;
+  }
+  .badge {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .badge__text {
+    font-size: 12px;
+  }
+
+  .menu__item {
+    padding: 13px 0;
+  }
+
+  .menu__item:nth-child(4) {
+    border-top: 1px solid #e9eefb;
+  }
+
+  .menu__item:hover {
+    background: #f1f5ff;
+    color: #4e77fb;
+  }
+}
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .modalLOT {
+    display: flex !important;
+  }
+  .root {
+    padding: 0;
+  }
+  .mobile {
+    display: block;
+    padding: 18px 0;
+  }
+  .mobileNavbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hambeurgerMenu {
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    height: 100%;
+    top: 0;
+    width: 80%;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .topContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .lot {
+    display: block !important;
+    width: 100% !important;
+    height: 36px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .hTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .logoMAIN {
+    display: none !important;
+    /* delete */
+    width: 0%;
+  }
+
+  .hlink {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.33000001311302185px;
+    text-align: left;
+  }
+  .lngmenu {
+    position: absolute;
+    bottom: 30px;
+    top: inherit;
+  }
+  .lotWrapper {
+    width: 100% !important;
+  }
+  .lotTelegram {
+    width: 100% !important;
+  }
+  .lotTelegramText {
+    font-size: 14px;
+  }
+  .lotTop {
+    gap: 0 !important;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .lotTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.33000001311302185px;
+    text-align: left;
+  }
+
+  .lotFillText {
+    display: none;
+  }
+  .lotBlockTitle {
+    display: none;
+  }
+  .lotMain {
+    gap: 28px;
+  }
+  .fillForm {
+    margin-bottom: 20px;
+  }
+}

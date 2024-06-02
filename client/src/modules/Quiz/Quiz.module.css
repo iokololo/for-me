@@ -1,0 +1,80 @@
+.quiz {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 400px;
+}
+.formTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.33000001311302185px;
+  color: #2a3044;
+  margin-bottom: 32px;
+}
+
+.quizOption {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.quizButton {
+  background: #4e77fb;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  border: none;
+}
+
+.quizButton:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.selectedButton {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+}
+
+.btnTop {
+  background: #4e77fb;
+  border: none;
+  color: #fff;
+}
+
+.btnTop:hover {
+  background: #fff;
+  color: #4e77fb;
+  border: 1px solid #4e77fb;
+}
+
+.btnBottom {
+  background: transparent;
+  border: none;
+  color: #4e77fb;
+}
+
+.btnBottom:hover {
+  background: #4e77fb;
+  color: #fff;
+}

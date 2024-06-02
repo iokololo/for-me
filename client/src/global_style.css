@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9;
+}
+input:focus {
+  outline: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #2a3044;
+}
+
+.regular {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #2a3044;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.h6 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+.wrapper {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-bottom: 24px;
+}
+
+.hlsb {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.title_md {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+/* title semi bold */
+.title_smb {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.33000001311302185px;
+}
+
+.d {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.floatingButton {
+  position: fixed;
+  top: calc(65% - 70px);
+  right: 100px;
+  z-index: 100;
+}
+.floatingButton2 {
+  position: fixed;
+  top: calc(65% + 20px);
+  right: 100px;
+  z-index: 100;
+}
+
+.modalTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.modalTitle {
+  color: #2a3044;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.33px;
+}
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.modalButton {
+  width: 61% !important;
+  background: #4e77fb !important;
+  border: none !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.modalButton:hover {
+  background: #fff !important;
+  border: 1px solid #4e77fb !important;
+  color: #4e77fb !important;
+}
+
+.modalSubtitle {
+  color: #2a3044;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.1px;
+}
+
+.modalImg {
+  width: 145px;
+  height: 145px;
+}
+.modalImg img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1180px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 24px;
+  }
+  .hlsb {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0px;
+  }
+
+  .floatingButton {
+    display: none;
+  }
+  .floatingButton2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 24px;
+  }
+  .hlsb {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0px;
+  }
+
+  .floatingButton {
+    display: block;
+    bottom: 20% !important;
+    top: unset !important;
+  }
+  .floatingButton2 {
+    display: block;
+    bottom: 10% !important;
+    top: unset !important;
+  }
+  .modalTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.33000001311302185px;
+    text-align: left;
+  }
+  .modalWrapper {
+    width: 95% !important;
+  }
+  .modalTG {
+    width: 95% !important;
+  }
+  .modalButton {
+    width: 100% !important;
+  }
+}
+
+.search-field {
+  padding: 10px;
+  margin: 20px;
+  width: calc(100% - 40px); /* Full-width minus margin */
+  box-sizing: border-box; /* Includes padding and border in width */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.teachers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Styling for each teacher card */
+.teacher-card {
+  flex: 1 0 30%; /* Adjusts the size to fit 3 cards per row */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .teacher-card {
+    flex: 1 0 45%; /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .teacher-card {
+    flex: 1 0 100%; /* One card per row on very small screens */
+  }
+}
+
+.teacher-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+}
+
+.pagination span {
+  margin: 0 10px;
+}
+
+
+.chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.message {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user {
+  background-color: blue;
+  text-align: right;
+  color: white;
+}
+
+.bot {
+  background-color: rgba(255, 255, 255, 0.201);
+  text-align: left;
+  color: white;
+}

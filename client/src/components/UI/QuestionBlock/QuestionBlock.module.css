@@ -1,0 +1,126 @@
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  cursor: pointer;
+}
+
+.titleText {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+  color: #2a3044;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.lastBlock {
+  border-bottom: none;
+}
+
+.icon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 11px 0px 12px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flatIcon {
+  border-radius: 30px;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.rotated {
+  transform: rotate(270deg);
+  background: #4e77fb;
+}
+
+.notRotated {
+  background: #fff;
+}
+
+.rotated2 {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1180px) {
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    cursor: pointer;
+  }
+
+  .titleText {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+    color: #2a3044;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  .lastBlock {
+    border-bottom: none;
+  }
+
+  .icon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 11px 0px 12px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flatIcon {
+    border-radius: 30px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .rotated {
+    transform: rotate(270deg);
+    background: #4e77fb;
+  }
+
+  .notRotated {
+    background: #fff;
+  }
+
+  .rotated2 {
+    transform: rotate(180deg);
+  }
+}
+
+
+.videoPlayer {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.videoFrame {
+  width: 100%;
+  height: 500px; 
+  margin-top: 20px;
+}

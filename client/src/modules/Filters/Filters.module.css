@@ -1,0 +1,139 @@
+.filterText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filterText a {
+  text-decoration: none;
+  color: #161452;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  align-items: center;
+  width: 100%;
+}
+
+.filters {
+  box-shadow: 2px 2px 24px 0px #00000008;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 901px;
+  background: #fff;
+  /* disable selectiing */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+}
+
+.active {
+  display: none;
+}
+
+.filter:hover {
+  background: #f1f5ff;
+  color: #161452;
+}
+
+.filter:hover > div {
+  color: #161452;
+}
+
+.filter:hover > .filterText > .inactive {
+  display: none;
+}
+
+.filter:hover > .filterText > .active {
+  display: block;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  position: absolute;
+}
+
+.filters_dropDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 901px;
+}
+.filter_dropDown {
+  text-align: center;
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+.button {
+  height: 58px;
+}
+
+.dropDownItem {
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+.dropDownItem:hover {
+  background: #f1f5ff;
+  color: #161452;
+}
+.wrapp {
+  width: 300px;
+}
+.btn {
+  width: 100%;
+  height: 58px;
+  background-color: #161452;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filter:nth-last-child(1) {
+    display: none;
+  }
+
+  .btn {
+    width: 100%;
+    height: 58px;
+    background-color: #161452;
+    color: #fff;
+    border: none;
+    font-size: 1px;
+  }
+
+  .filters {
+    /* width: 100%; */
+  }
+  .wrapp {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .root {
+    display: none;
+  }
+}

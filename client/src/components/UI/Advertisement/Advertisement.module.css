@@ -1,0 +1,104 @@
+.advertisement {
+  display: flex;
+  height: 420px;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 16px;
+  border: 3px solid #fff;
+  background: #f1f5ff;
+}
+
+.adTitle {
+  width: 274px;
+  color: #2a3044;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.adText {
+  color: #5e5e5e;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+.adImage {
+  background: lightgray 0px -118.5px / 101.471% 175.796% no-repeat;
+  width: 269px;
+  height: 157px;
+}
+
+.adBut {
+  width: 269px;
+  display: flex;
+  padding: 15px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 16px;
+}
+
+.devider {
+  display: flex;
+  justify-content: space-between;
+  padding-left: calc((100% - 1180px) / 2);
+  /* padding: 16px 0; */
+  height: 172px;
+  background: #f1f5ff;
+  margin-top: 32px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.deviderText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.d_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  color: #2a3044;
+}
+
+.d_subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #5e5e5e;
+}
+.button {
+  padding: 15px 40px;
+  background: #e53935 !important;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imgView {
+  width: 269px;
+  height: 157px;
+}

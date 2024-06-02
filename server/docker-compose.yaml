@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  node:
+    build:
+      context: .
+    container_name: inlot-server
+    hostname: localhost
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=development
+    networks:
+      - example-net
+  nginx:
+    build:
+      context: ./nginx
+    container_name: nginx
+    hostname: nginx
+    ports:
+      - "90:90"
+    depends_on:
+      - node
+    networks:
+      - example-net
+      # - default
+    volumes:
+      - ./uploads:/server/uploads
+
+networks:
+  example-net:
+    # external: true
+    driver: bridge

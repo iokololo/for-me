@@ -1,0 +1,41 @@
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    color: #000;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.paginationItem {
+    display: flex;
+    padding: 1px 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.paginationItem:hover {
+    color: #1890FF;
+}
+
+.active {
+    border-radius: 30px;
+    border: 1px solid #1890FF;
+    color: #1890FF;
+}
+
+.ellipsis {
+    pointer-events: none;
+}
